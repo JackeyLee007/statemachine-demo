@@ -1,0 +1,11 @@
+presto.spring.datasource:
+  marketing.url: jdbc:presto://192.168.1.152:8080/mysql_test?user=rongyi&password=rongyi123$qwer
+  marketing.driver-class-name: com.facebook.presto.jdbc.PrestoDriver
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.1.200:3306/buorg?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&autoReconnect=true&failOverReadOnly=false
+    username: rongyi
+    password: rongyi123$qwer
+    type: com.zaxxer.hikari.HikariDataSource
